@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "bulutmd.net",
+    "slug": "bulutmd-mobile-application",
+    "icon": "./logo.png",
+    "description": "bulut.net",
+    "sdkVersion": "36.0.0",
+    "version": "1",
+    "orientation": "portrait",
+    "android": {
+      "permissions": [
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE",
+        "INTERNET"
+      ],
+      "package": "com.bulutmd.mobileapplication",
+     
+      "versionCode": 2,
+      "icon": "./logo.png"
+    },
+    "ios": {
+      "bundleIdentifier": "com.bulutmd.mobileapplication",
+     
+      "supportsTablet": false,
+      "isTabletOnly": false,
+      "infoPlist": {
+        "NSCameraUsageDescription": "Uygulama kameranıza erişmek istiyor...",
+        "NSPhotoLibraryUsageDescription": "Uygulama fotoğraflarınıza erişmek için izin istiyor.",
+        "NSPhotoLibraryAddUsageDescription": "Uygulama fotoğraflarınıza erişmek için izin istiyor.",
+        "NSLocationWhenInUseUsageDescription": "Uygulama konumunuza erişmek istiyor..."
+      }
+    },
+    "packagerOpts": {
+      "sourceExts": [
+        "ts",
+        "tsx",
+        "js"
+      ]
+    }
+  }
+}
